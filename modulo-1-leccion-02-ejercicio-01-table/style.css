@@ -1,0 +1,31 @@
+.title {
+  font-family: "Montserrat";
+  font-size: 26px;
+  text-align: center;
+}
+
+table {
+  font-family: "Montserrat";
+  text-align: center;
+  border: 1px solid black;
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.week-day {
+  border: 1px solid black;
+  height: 30px;
+  background-color: #c1e8da;
+}
+
+.meal-type {
+  border: 1px solid black;
+  height: 60px;
+  background-color: #d5d8d4;
+}
+
+td {
+  border: 1px solid black;
+}
