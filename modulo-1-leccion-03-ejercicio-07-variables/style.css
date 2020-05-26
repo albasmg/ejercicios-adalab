@@ -1,0 +1,52 @@
+:root {
+  --color-grey: grey;
+  --color-green: green;
+  --padding: 20px;
+  /*Escribe aquí tu código*/
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #eaeaea;
+  padding: var(--padding);
+}
+
+main {
+  padding: var(--padding);
+}
+
+p {
+  width: 50%;
+  font-size: 16px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.title {
+  color: var(--color-grey);
+  margin: 0;
+}
+
+.subtitle {
+  color: var(--color-grey);
+  margin: 0;
+}
+
+.menu li {
+  display: inline;
+}
+
+.menu a {
+  color: var(--color-green);
+  text-decoration: none;
+}
+
+p a {
+  color: green;
+}
