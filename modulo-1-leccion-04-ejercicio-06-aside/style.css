@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  font-family: Montserrat;
+  margin: 0px;
+  max-width: 960px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.header {
+  background: orangered;
+  text-align: center;
+  width: 100%;
+}
+
+.aside {
+  text-align: center;
+  width: 25%;
+}
+
+.aside:first-of-type {
+  background: yellow;
+}
+
+.aside:last-of-type {
+  background: pink;
+}
+
+.article {
+  background: cyan;
+  padding: 10px;
+  flex-grow: 1;
+}
+
+.footer {
+  background: greenyellow;
+  text-align: center;
+}

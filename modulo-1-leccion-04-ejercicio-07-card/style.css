@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+  font-family: Helvetica;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 840px;
+}
+
+.info {
+  display: flex;
+  margin-left: 15px;
+  justify-content: space-between;
+}
+
+.center-image {
+  height: 120px;
+  width: 120px;
+  background: lightgrey;
+  border-radius: 10px;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  justify-content: space-between;
+}
+
+.center-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.center-field {
+  font-size: 16px;
+  font-weight: lighter;
+  color: lightgrey;
+  margin-top: 8px;
+}
+
+.button {
+  height: 40px;
+  width: 150px;
+  border-radius: 6px;
+}
+
+.book-button {
+  background: lightgrey;
+  border: none;
+  color: white;
+}
+
+.budget-button {
+  background: white;
+  border: 2px solid lightgrey;
+  margin-left: 10px;
+}
+
+.reviews-number-text {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.comments-link {
+  font-size: 14px;
+  color: lightgrey;
+  margin: 0px;
+}
+
+.valoration-box {
+  position: relative;
+  height: 50px;
+  width: 50px;
+  background: lightgrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-top: 0px;
+  margin-left: 10px;
+}
+
+.valoration-box p {
+  font-size: 20px;
+}
+
+.favorito {
+  height: 40px;
+  width: 40px;
+  margin-right: 5px;
+  margin-top: 10px;
+}
+
+.reviews-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.reviews-info {
+  display: flex;
+  align-items: center;
+}
