@@ -1,0 +1,11 @@
+body {
+  margin: 0px;
+}
+
+.modal {
+  height: 100px;
+  width: 100%;
+  background: yellow;
+  position: fixed;
+  bottom: 0px;
+}

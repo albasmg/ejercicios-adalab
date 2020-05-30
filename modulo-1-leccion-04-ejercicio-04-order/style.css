@@ -1,0 +1,26 @@
+.news {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.article {
+  box-sizing: border-box;
+  border: 2px solid purple;
+  width: 50%;
+}
+
+h1,
+p {
+  margin: 10px;
+}
+
+.image {
+  background-color: grey;
+  height: 100px;
+  margin: 10px;
+}
+
+.article:last-of-type {
+  order: -1;
+  width: 100%;
+}
