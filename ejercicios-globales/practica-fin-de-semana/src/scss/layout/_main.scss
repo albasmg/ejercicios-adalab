@@ -1,0 +1,19 @@
+.hero {
+  height: 700px;
+  display: flex;
+  align-items: center;
+  background-image: url("../images/slider-home.jpg");
+  background-size: cover;
+  background-position: center;
+
+  &__text {
+    color: $color-light;
+    font-weight: $font-light;
+    font-size: 60px;
+    text-align: center;
+
+    span {
+      display: block;
+    }
+  }
+}
