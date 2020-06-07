@@ -355,4 +355,10 @@ template {
   margin: 0;
   padding: 0;
   font-family: $font-main;
+  list-style-type: none;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: auto;
 }

@@ -5,8 +5,9 @@
   align-items: center;
   width: 280px;
   height: 380px;
-  margin: auto;
   margin-top: 60px;
+  margin-left: 20px;
+  margin-right: 20px;
   padding-top: 30px;
   padding-bottom: 30px;
   border: solid 0.1px $color-border;
@@ -30,12 +31,12 @@
 
   &__link {
     text-decoration: none;
-    color: inherit;
+    color: $color-main;
     font-weight: $font-bold;
 
-    &:after {
-      content: "-";
-      margin-left: 10px;
-    }
+    // &:after {
+    //   content: "-";
+    //   margin-left: 10px;
+    // }
   }
 }

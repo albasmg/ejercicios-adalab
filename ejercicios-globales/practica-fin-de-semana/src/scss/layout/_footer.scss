@@ -1,0 +1,33 @@
+.footer {
+  height: 500px;
+  background: $color-dark;
+  color: $color-light;
+
+  &__logo {
+    margin: 25px;
+  }
+
+  &__mainNav {
+    display: none;
+
+    @media all and (min-width: 768px) {
+      display: block;
+    }
+  }
+
+  &__mainNavItems {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  &__contact {
+    h2 {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    span {
+      display: block;
+      padding-top: 10px;
+    }
+  }
+}

@@ -3,6 +3,7 @@
 	"version": "3.0.0",
 	"description": "Adalab web starter kit",
 	"dependencies": {
+		"@fortawesome/fontawesome-free": "^5.13.0",
 		"browser-sync": "^2.26.7",
 		"del": "^5.1.0",
 		"eslint": "^7.1.0",
