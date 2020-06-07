@@ -11,9 +11,48 @@
     font-weight: $font-light;
     font-size: 60px;
     text-align: center;
+    padding-left: 15px;
 
     span {
       display: block;
+    }
+  }
+
+  &__mainText {
+    &:before,
+    &:after {
+      content: "-";
+      margin: 8px;
+      font-weight: $font-bold;
+      color: $color-secondary;
+    }
+  }
+}
+
+.mainInfo {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__title {
+    text-transform: uppercase;
+    color: $color-main;
+    font-weight: $font-bold;
+  }
+
+  &__description {
+    font-size: 35px;
+    margin-top: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+    text-align: center;
+    font-weight: $font-regular;
+
+    @media all and (min-width: 768px) {
+      span {
+        display: block;
+      }
     }
   }
 }
