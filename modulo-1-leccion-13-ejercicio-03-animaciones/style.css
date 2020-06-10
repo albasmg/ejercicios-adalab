@@ -1,0 +1,27 @@
+.container {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup {
+  width: 700px;
+  height: 400px;
+  background: lightgray;
+  position: absolute;
+  transform: translate(10px, 1200px);
+  animation-name: intro;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+}
+
+@keyframes intro {
+  from {
+    transform: translate(10px, 1200px);
+  }
+  to {
+    transform: translate(0, 0);
+  }
+}
