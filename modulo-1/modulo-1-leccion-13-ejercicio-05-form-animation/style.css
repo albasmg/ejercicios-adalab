@@ -1,0 +1,26 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+label {
+  display: none;
+  animation-name: label;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+
+input {
+  display: block;
+  height: 45px;
+  margin-top: 20px;
+}
+
+@keyframe label {
+  from {
+    display: none;
+  }
+
+  to {
+    display: block;
+  }
+}

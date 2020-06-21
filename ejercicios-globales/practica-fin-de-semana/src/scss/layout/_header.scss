@@ -10,8 +10,8 @@
   background: $color-main;
   padding-left: 15px;
 
-  @media all and (min-width: 768px) {
-    height: 95px;
+  @include tablet {
+    height: 100px;
   }
 
   &__logo {
