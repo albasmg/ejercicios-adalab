@@ -11,7 +11,7 @@
 //   console.log(`El perro tiene ${followingYears} años humanos`);
 // }
 
-const dogAge = 2;
+const dogAge = 6;
 let humanAge = 0;
 
 if (dogAge >= 1) {
