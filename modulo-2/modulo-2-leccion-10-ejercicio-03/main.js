@@ -1,7 +1,3 @@
-const input = document.querySelector('.input');
-
-const resultImg = document.querySelector('.resultImg');
-
 function getGithubProfile(userName) {
   fetch(`https://api.github.com/users/${userName}`)
     .then((response) => response.json())
@@ -21,6 +17,8 @@ function printUserInfo(userData) {
 }
 
 function handleBtnClick() {
+  const input = document.querySelector('.input');
+
   getGithubProfile(input.value, 22);
 }
 
