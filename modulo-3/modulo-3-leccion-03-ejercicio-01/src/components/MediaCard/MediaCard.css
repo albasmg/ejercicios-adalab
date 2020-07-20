@@ -1,0 +1,23 @@
+.card {
+  width: 300px;
+  border: 2px solid grey;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.name {
+  font-size: 18px;
+  color: lightcoral;
+}
+
+.date {
+  font-size: 16px;
+  color: grey;
+}
+
+.text {
+  font-size: 12px;
+}
