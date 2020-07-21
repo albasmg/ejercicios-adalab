@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import MediaCard from './components/MediaCard/MediaCard.js';
+import MediaCard from './MediaCard/MediaCard.js';
 
 function App() {
   return (
