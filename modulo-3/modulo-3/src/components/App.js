@@ -24,6 +24,17 @@ const arrayOfItems = [
     category: 'Bebida',
     price: 5,
   },
+  {
+    name: 'Leche',
+    quantity: 2,
+    category: 'Bebida',
+    price: 5,
+  },
+  {
+    quantity: 2,
+    category: 'Bebida',
+    price: true,
+  },
 ];
 
 function App() {
