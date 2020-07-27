@@ -30,11 +30,11 @@ const arrayOfItems = [
     category: 'Bebida',
     price: 5,
   },
-  {
-    quantity: 2,
-    category: 'Bebida',
-    price: true,
-  },
+  // {
+  //   quantity: 2,
+  //   category: 'Bebida',
+  //   price: true,
+  // },
 ];
 
 function App() {
